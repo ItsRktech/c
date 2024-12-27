@@ -8,7 +8,7 @@ void main()
     printf("Enter the gender of employee(M/F):\n");
     scanf("%c",&gender);
     printf("Enter the sales of employee:\n");
-    scanf("%f,",&sales);
+    scanf("%f",&sales);
     if(gender=='M')
     {
         if(sales<5000)
