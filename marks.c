@@ -4,7 +4,7 @@ void main()
 {
     float marks[5], total = 0, percentage;
     char subjects[5][20]= {"Physics", "Chemistry", "Maths", "English", "Biology"};
-    printf("Enter marks of physics, chemistry, maths, english, biology:\n");
+    printf("Enter marks of physics, chemistry, maths, english, biology out of 100:\n");
 
     for(int i = 0; i < 5; i++)
     {
