@@ -1,4 +1,5 @@
-for(j=1;j<=row-i;j++)
-        // {
-        //     printf(" ");
-        // }
+if(n<i)
+            // {
+            //     isprime = 0;
+            //     break;
+            // }
