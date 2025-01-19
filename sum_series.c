@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<math.h>
 
 int main()
@@ -8,10 +9,10 @@ int main()
 
     for(n=1;n<=10;n++)
     {
-        int isprime = 1;
+        int is_Prime = 1;
         if(n<=1)
         {
-            isprime = 0;
+            is_Prime = 0;
         }
         else
         {
@@ -19,12 +20,12 @@ int main()
             {
                 if(n%i==0)
                 {
-                    isprime = 0;
+                    is_Prime = 0;
                     break;
                 }
             }
         }
-        if(isprime == 0)
+        if(is_Prime == 0)
         {
             int fact = 1;
 
@@ -38,5 +39,6 @@ int main()
     }
 
     printf("The sum of the series excluding prime numbers is %.3f.",y);
+    getch();
     return 0;
 }
