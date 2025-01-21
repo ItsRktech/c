@@ -1,5 +1,2 @@
-if(n<i)
-            // {
-            //     isprime = 0;
-            //     break;
-            // }
+ // printf("Enter the number of terms: ");
+    // scanf("%d",&n);
